@@ -68,7 +68,7 @@ let step = () => {
       html.innerHTML = string2;
       window.scrollTo(0, 9999);
       html.scrollTo(0, 9999);
-      style.innerHTML = string.slice(0, n + 1);
+      style.innerHTML = string.slice(0, n);
       n += 1;
       step();
     }
